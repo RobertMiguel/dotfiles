@@ -54,25 +54,25 @@ return packer.startup(function(use)
 	use { "hrsh7th/cmp-nvim-lsp" }
 	use { "hrsh7th/cmp-nvim-lua" }
 
-  -- Colorschemes
-  use { "rose-pine/neovim" }
-
-  -- Snippets
+	-- Snippets
   use { "L3MON4D3/LuaSnip" } --snippet engine
   use { "rafamadriz/friendly-snippets" } -- a bunch of snippets to use
 
-  -- LSP
+	-- LSP
 	use { "neovim/nvim-lspconfig" } -- enable LSP
   use { "williamboman/mason.nvim" } -- simple to use language server installer
   use { "williamboman/mason-lspconfig.nvim" }
 	use { "jose-elias-alvarez/null-ls.nvim" } -- for formatters and linters
   use { "RRethy/vim-illuminate" }
 
-  	-- Telescope
+  -- Telescope
 	use { "nvim-telescope/telescope.nvim" }
 
-	-- Treesitter
+  -- Treesitter
 	use { "nvim-treesitter/nvim-treesitter" }
+
+	-- Colorschemes
+  use { "rose-pine/neovim" }
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
