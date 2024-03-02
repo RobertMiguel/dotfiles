@@ -1,10 +1,8 @@
 local servers = {
 	"lua_ls",
-	"cssls",
-	"html",
 	"tsserver",
-	"jsonls",
-  "jdtls"
+  "jdtls",
+  "pyright"
 }
 
 local settings = {
